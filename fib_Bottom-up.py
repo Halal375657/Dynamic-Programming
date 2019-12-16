@@ -1,4 +1,7 @@
-j#Bottom-up
+#Bottom-up
+
+# input: 10
+# output: 55
 
 def fibo(n):
     fib = {}
@@ -10,4 +13,5 @@ def fibo(n):
 
 
 n = 10
-fibo(n)
+res = fibo(n)
+print(res)
